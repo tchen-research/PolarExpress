@@ -1,0 +1,45 @@
+version: 1
+project:
+  title: The Polar Express for Muon, Visualized
+  subtitle: An interactive introduction
+  date: 2026-02-12
+  subject: fdas
+  venue:
+    title: VENUE TITLE
+  contributors:
+    - id: tc
+      name: Tyler Chen
+      url: https://research.chen.pw
+      orcid: 0000-0002-1187-1026
+      github: tchen-research
+  authors:
+  - tc
+   
+  license: CC-BY-4.0
+  github: https://github.com/tchen-research/PolarExpress
+
+  math:
+  # Note the 'single quotes'
+    '\vec': '\mathbf'
+    '\T' : '\mathsf{T}'
+    '\R' : '\mathbb{R}'
+    '\polar' : '\operatorname{polar}'
+    '\smin' : '\sigma_{\textup{min}}'
+    '\smax' : '\sigma_{\textup{max}}'
+
+  toc:
+    - file: PolarExpress.ipynb
+  banner: ./bg.jpg
+
+site:
+  template: article-theme
+  title: The Polar Express for Muon, Visualized
+  nav:
+    - title: Home
+      url: /
+  options:
+    logo_url: https://research.chen.pw
+    analytics_google: UA-50592837-1 
+    logo_text: Tyler Chen
+    favicon: favicon.ico
+
