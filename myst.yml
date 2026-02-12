@@ -19,6 +19,7 @@ project:
     '\vec': '\mathbf'
     '\T' : '\mathsf{T}'
     '\R' : '\mathbb{R}'
+    '\F' : '\mathsf{F}'
     '\polar' : '\operatorname{polar}'
     '\smin' : '\sigma_{\textup{min}}'
     '\smax' : '\sigma_{\textup{max}}'
@@ -38,4 +39,5 @@ site:
     analytics_google: UA-50592837-1 
     logo_text: Tyler Chen
     favicon: favicon.ico
+    style: style.css
 
