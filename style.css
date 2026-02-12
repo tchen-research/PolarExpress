@@ -19,3 +19,11 @@
     display: inline-block;
     width: 1.2em;
 }
+
+.jp-RenderedHTMLCommon, .vega-embed.has-actions {
+    padding-right: 0!important;
+}
+
+.article :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+    font-size: .95em;
+}
