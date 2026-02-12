@@ -3,9 +3,6 @@ project:
   title: The Polar Express for Muon, Visualized
   subtitle: An interactive introduction
   date: 2026-02-12
-  subject: fdas
-  venue:
-    title: VENUE TITLE
   contributors:
     - id: tc
       name: Tyler Chen
@@ -13,8 +10,7 @@ project:
       orcid: 0000-0002-1187-1026
       github: tchen-research
   authors:
-  - tc
-   
+    - tc
   license: CC-BY-4.0
   github: https://github.com/tchen-research/PolarExpress
 
